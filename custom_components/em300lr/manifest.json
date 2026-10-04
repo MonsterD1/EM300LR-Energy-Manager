@@ -1,0 +1,13 @@
+{
+  "domain": "em300lr",
+  "name": "B-Control EM300 LR Energy Manager",
+  "codeowners": ["@MonsterD1"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/MonsterD1/EM300LR-Energy-Manager",
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/MonsterD1/EM300LR-Energy-Manager/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}

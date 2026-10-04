@@ -1,0 +1,41 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "B-Control EM300 LR",
+        "data": {
+          "host": "Host",
+          "password": "Passwort"
+        },
+        "data_description": {
+          "host": "IP-Adresse oder Hostname des Energiemanagers.",
+          "password": "Leer lassen, wenn das Gerät kein Passwort hat (auth_mode none)."
+        }
+      },
+      "reauth_confirm": {
+        "title": "EM300 LR neu anmelden",
+        "data": {
+          "password": "Passwort"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Verbindung zum Gerät fehlgeschlagen.",
+      "invalid_auth": "Anmeldung abgelehnt, Passwort prüfen."
+    },
+    "abort": {
+      "already_configured": "Dieses Gerät ist bereits eingerichtet.",
+      "reauth_successful": "Neuanmeldung erfolgreich."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Abfrage",
+        "data": {
+          "scan_interval": "Abfrageintervall (Sekunden)"
+        }
+      }
+    }
+  }
+}
